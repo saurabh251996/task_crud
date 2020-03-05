@@ -9,7 +9,7 @@ app.use(bodyparse.json());
 app.use(bodyparse.urlencoded({extended:true}));
 
 app.use("/user",route);
-//server is listening
+//Server is listening
 app.listen(3000,()=>{
     console.log("server running on port 3000");
 })
